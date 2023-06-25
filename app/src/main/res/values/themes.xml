@@ -24,4 +24,13 @@
 
 
 
+    <style name="custom_card_style" parent="Widget.Material3.CardView.Filled">
+        <item name="shapeAppearanceOverlay">@style/custom_card</item>
+    </style>
+
+    <style name="custom_card" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopLeft">32dp</item>
+        <item name="cornerSizeTopRight">32dp</item>
+    </style>
 </resources>
