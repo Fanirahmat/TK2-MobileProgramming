@@ -25,7 +25,7 @@ class LoginActivity : AppCompatActivity() {
             val password = passwordInput.text.toString()
 
             if (username == "pengguna" && password == "masuk") {
-                val intent = Intent(this, MainActivity::class.java)
+                val intent = Intent(this, HomeActivity::class.java)
                 startActivity(intent)
                 finish()
             } else {
